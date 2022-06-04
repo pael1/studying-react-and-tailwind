@@ -3,12 +3,9 @@ import React from 'react';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import AWS from '../assets/aws.png';
-import GitHub from '../assets/github.png';
-import Mongo from '../assets/mongo.png';
-import Php from '../assets/php.svg';
+import Bootstrap from '../assets/boot.jpg';
+import Laravel from '../assets/laravel.png';
+import Php from '../assets/php.png';
 import Csharp from '../assets/csharp.png';
 import MySql from '../assets/mysql.png';
 
@@ -34,24 +31,24 @@ const Skills = () => {
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="HTML icon" />
+                  <p className='my-4'>Bootstrap</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
+                  <img className='w-20 mx-auto' src={Laravel} alt="HTML icon" />
+                  <p className='my-4'>Laravel</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Php} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <p className='my-4'>PHP</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={MySql} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
+                  <img className='w-20 mx-auto h-20' src={MySql} alt="HTML icon" />
+                  <p className='my-4'>MySQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Csharp} alt="HTML icon" />
-                  <p className='my-4'>AWSs</p>
+                  <p className='my-4'>C#</p>
               </div>
           </div>
       </div>
