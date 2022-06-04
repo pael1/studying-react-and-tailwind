@@ -19,7 +19,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid Item */}
-          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-pink-600 duration-300">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <img className="w-full" src={Ports} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 underline">PORTS</div>
@@ -41,7 +41,7 @@ const Work = () => {
             </div> */}
           </div>
           {/* 2 */}
-          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-pink-600 duration-300">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <img className="w-full" src={eSMS} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 underline">eSMS</div>
@@ -65,7 +65,7 @@ const Work = () => {
             </div>
           </div>
           {/* 3 */}
-          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-pink-600 duration-300">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-[#040c16] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <img className="w-full" src={CeedBS} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 underline">CeedBS</div>
