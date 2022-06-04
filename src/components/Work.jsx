@@ -57,10 +57,11 @@ const Work = () => {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REST/SOAP API</span>
             </div>
             <div className='flex justify-center'>
-              <a href='https://cee.davaocity.gov.ph/esms' rel='noreferrer' target='_blank'>
-                <span className="inline-block bg-pink-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 hover:bg-black hover:text-white">
+              <a href='https://cee.davaocity.gov.ph/esms' className='text-white group border-2 px-2 flex items-center hover:bg-pink-600 hover:border-pink-600' rel='noreferrer' target='_blank'>
+                {/* <span className="inline-block bg-pink-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 hover:bg-black hover:text-white">
                   Preview
-                </span>
+                </span> */}
+                Preview
               </a>
             </div>
           </div>
@@ -79,10 +80,11 @@ const Work = () => {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JS</span>
             </div>
             <div className='flex justify-center'>
-              <a href='https://cee.davaocity.gov.ph/CEEDBS' rel='noreferrer' target='_blank'>
-                <span className="inline-block bg-pink-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 hover:bg-black hover:text-white">
+              <a href='https://cee.davaocity.gov.ph/CEEDBS' className='text-white group border-2 px-2 flex items-center hover:bg-pink-600 hover:border-pink-600' rel='noreferrer' target='_blank'>
+                {/* <span className="inline-block bg-pink-700 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 hover:bg-black hover:text-white">
                   Preview
-                </span>
+                </span> */}
+                Preview
               </a>
             </div>
           </div>
