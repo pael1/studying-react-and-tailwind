@@ -99,8 +99,47 @@ const Navbar = () => {
         </li>
       </ul>
 
+      {/* side bar */}
+      <ul className={
+        !nav
+          ? 'hidden'
+          : 'flex fixed flex-col top-[35%] left-0'
+      }>
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='https://github.com/pael1'
+          >
+            Github <FaGithub size={30} />
+          </a>
+        </li>
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#517e6c]'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href='mailto:rafaelfernandez677@gmail.com'
+          >
+            Email <HiOutlineMail size={30} />
+          </a>
+        </li>
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <a
+            className='flex justify-between items-center w-full text-gray-300'
+            href={CVFile} download="CVFile.pdf"
+          >
+            Resume <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
+      </ul>
+      <div className={
+        !nav
+          ? 'hidden'
+          : 'flex fixed flex-col top-[5%] right-0'
+      }>
+        <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />
+      </div>
+
       {/* Social icons */}
-      <div className='flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
@@ -137,7 +176,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
-      <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />
+        <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />
       </div>
     </div>
   );
