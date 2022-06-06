@@ -13,11 +13,25 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import CVFile from '../assets/RAFAEL_FERNANDEZ.pdf';
 import GIF from '../assets/down.gif';
-
+import { useScrollDirection } from 'react-use-scroll-direction';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const { 
+    isScrolling,
+    isScrollingX,
+    isScrollingY,
+    isScrollingUp, 
+    isScrollingDown,
+    isScrollingLeft,
+    isScrollingRight,
+    scrollDirection,
+  } = useScrollDirection()
+
+  console.log(scrollDirection) // -> UP | DOWN | LEFT | RIGHT | null
+
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
@@ -176,7 +190,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
-        <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />
+      {isScrollingUp && "Up"}
+      {isScrollingDown && <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />}
+        
       </div>
     </div>
   );
