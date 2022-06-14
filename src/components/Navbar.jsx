@@ -8,11 +8,13 @@ import {
   // FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsDownload } from 'react-icons/bs';
 // import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 import CVFile from '../assets/RAFAEL_FERNANDEZ.pdf';
 import GIF from '../assets/down.gif';
+import NoScroll from '../assets/no-scroll1.gif';
+import Scroll from '../assets/scroll.gif';
 import { useScrollDirection } from 'react-use-scroll-direction';
 
 const Navbar = () => {
@@ -21,22 +23,19 @@ const Navbar = () => {
 
   const { 
     isScrolling,
-    isScrollingX,
-    isScrollingY,
+    // isScrollingX,
+    // isScrollingY,
     isScrollingUp, 
-    isScrollingDown,
-    isScrollingLeft,
-    isScrollingRight,
-    scrollDirection,
+    // isScrollingDown,
+    // isScrollingLeft,
+    // isScrollingRight,
+    // scrollDirection,
   } = useScrollDirection()
-
-  console.log(scrollDirection) // -> UP | DOWN | LEFT | RIGHT | null
 
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        {/* <img src={Logo} alt='Logo' style={{ width: '50px' }} /> */}
         <h1 className='text-2xl font-normal leading-normal mt-0 mb-2 text-pink-700 font-serif border-2 border-pink-700 px-3'>RF</h1>
       </div>
 
@@ -117,30 +116,30 @@ const Navbar = () => {
       <ul className={
         !nav
           ? 'hidden'
-          : 'flex fixed flex-col top-[35%] left-0'
+          : 'mx-auto fixed inset-x-4 bottom-0 flex justify-between mb-10'
       }>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+        <li className='flex justify-between items-center bg-[#333333]'>
           <a
-            className='flex justify-between items-center w-full text-gray-300'
+            className='flex justify-between items-center w-full text-gray-300 gap-2'
             href='https://github.com/pael1'
           >
             Github <FaGithub size={30} />
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#517e6c]'>
+        <li className='flex justify-between items-center bg-[#517e6c]'>
           <a
-            className='flex justify-between items-center w-full text-gray-300'
+            className='flex justify-between items-center w-full text-gray-300 gap-2'
             href='mailto:rafaelfernandez677@gmail.com'
           >
             Email <HiOutlineMail size={30} />
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+        <li className='flex justify-between items-center bg-[#565f69]'>
           <a
-            className='flex justify-between items-center w-full text-gray-300'
+            className='flex justify-between items-center w-full text-gray-300 gap-2'
             href={CVFile} download="CVFile.pdf"
           >
-            Resume <BsFillPersonLinesFill size={30} />
+            Resume <BsDownload size={30} />
           </a>
         </li>
       </ul>
@@ -184,14 +183,16 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href={CVFile} download="CVFile.pdf"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <BsDownload size={30} />
             </a>
           </li>
         </ul>
       </div>
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
-      {isScrollingUp && "Up"}
-      {isScrollingDown && <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />}
+      {/* {isScrolling ? 'Scrolling' : 'Not scrolling'} */}
+      {isScrolling ? (isScrollingUp ? '' : <img className='w-[180px] mx-auto' src={Scroll} alt="HTML icon" />) : ''}
+      {/* {isScrollingUp && <img className='w-[180px] mx-auto' src={NoScroll} alt="HTML icon" />}
+      {isScrollingDown && <img className='w-[180px] mx-auto' src={GIF} alt="HTML icon" />} */}
         
       </div>
     </div>
