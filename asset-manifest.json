@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/studying-react-and-tailwind/static/css/main.a329e385.css",
-    "main.js": "/studying-react-and-tailwind/static/js/main.63109534.js",
+    "main.css": "/studying-react-and-tailwind/static/css/main.3b056e85.css",
+    "main.js": "/studying-react-and-tailwind/static/js/main.dde85930.js",
     "static/js/937.a1f59f92.chunk.js": "/studying-react-and-tailwind/static/js/937.a1f59f92.chunk.js",
+    "static/media/po.PNG": "/studying-react-and-tailwind/static/media/po.b1d18de939bbcb4afe62.PNG",
+    "static/media/mh.PNG": "/studying-react-and-tailwind/static/media/mh.f11478d0953298472c0e.PNG",
+    "static/media/ht.PNG": "/studying-react-and-tailwind/static/media/ht.5829f97f40921dd1a850.PNG",
     "static/media/esms.PNG": "/studying-react-and-tailwind/static/media/esms.0b13cffd654c6605a97a.PNG",
     "static/media/down.gif": "/studying-react-and-tailwind/static/media/down.25e70798b451b162493a.gif",
     "static/media/ports.PNG": "/studying-react-and-tailwind/static/media/ports.5c8580f4eb2a184bc2bb.PNG",
+    "static/media/ck.PNG": "/studying-react-and-tailwind/static/media/ck.4df4c8349a5739d4c743.PNG",
     "static/media/ceedbs.PNG": "/studying-react-and-tailwind/static/media/ceedbs.2457e1e2153fc26afa0a.PNG",
     "static/media/php.png": "/studying-react-and-tailwind/static/media/php.c12887b98d2a573fc498.png",
     "static/media/mysql.png": "/studying-react-and-tailwind/static/media/mysql.7929b93827030cc071c5.png",
+    "static/media/logo.png": "/studying-react-and-tailwind/static/media/logo.6c3c9cf4f6f7e07f3878.png",
     "static/media/RAFAEL_FERNANDEZ.pdf": "/studying-react-and-tailwind/static/media/RAFAEL_FERNANDEZ.ebeb20bb8c03ea3c9cf3.pdf",
     "static/media/csharp.png": "/studying-react-and-tailwind/static/media/csharp.324287af23c2b6ad522c.png",
     "static/media/laravel.png": "/studying-react-and-tailwind/static/media/laravel.8b2939ca7ad8851c40a2.png",
     "static/media/boot.jpg": "/studying-react-and-tailwind/static/media/boot.6703d1fd178d5d9d56ce.jpg",
-    "static/media/no-scroll1.gif": "/studying-react-and-tailwind/static/media/no-scroll1.cf99f34edcc88cce8f4d.gif",
     "static/media/html.png": "/studying-react-and-tailwind/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/studying-react-and-tailwind/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/scroll.gif": "/studying-react-and-tailwind/static/media/scroll.a51334a4f859a7f70758.gif",
     "static/media/javascript.png": "/studying-react-and-tailwind/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/studying-react-and-tailwind/index.html",
-    "main.a329e385.css.map": "/studying-react-and-tailwind/static/css/main.a329e385.css.map",
-    "main.63109534.js.map": "/studying-react-and-tailwind/static/js/main.63109534.js.map",
+    "main.3b056e85.css.map": "/studying-react-and-tailwind/static/css/main.3b056e85.css.map",
+    "main.dde85930.js.map": "/studying-react-and-tailwind/static/js/main.dde85930.js.map",
     "937.a1f59f92.chunk.js.map": "/studying-react-and-tailwind/static/js/937.a1f59f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a329e385.css",
-    "static/js/main.63109534.js"
+    "static/css/main.3b056e85.css",
+    "static/js/main.dde85930.js"
   ]
 }
