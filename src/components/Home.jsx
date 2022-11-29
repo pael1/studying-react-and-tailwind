@@ -20,7 +20,7 @@ const Home = () => {
             I'm a
           </h2>
           <Typed
-            className='text-3xl sm:text-7xl font-bold text-pink-600 pl-3'
+            className='text-3xl sm:text-7xl font-bold text-[#f2763a] pl-3'
             strings={['Web Developer']}
             typeSpeed={120}
             backSpeed={140}
@@ -34,7 +34,7 @@ const Home = () => {
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}>
-            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f2763a] hover:border-[#f2763a]'>
               View my works
               <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3 ' />
