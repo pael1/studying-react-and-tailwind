@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/studying-react-and-tailwind/static/css/main.42d12008.css",
-    "main.js": "/studying-react-and-tailwind/static/js/main.3d2ab99e.js",
+    "main.css": "/studying-react-and-tailwind/static/css/main.f34de1b3.css",
+    "main.js": "/studying-react-and-tailwind/static/js/main.761b7859.js",
     "static/js/937.a1f59f92.chunk.js": "/studying-react-and-tailwind/static/js/937.a1f59f92.chunk.js",
     "static/media/po.PNG": "/studying-react-and-tailwind/static/media/po.b1d18de939bbcb4afe62.PNG",
     "static/media/mh.PNG": "/studying-react-and-tailwind/static/media/mh.f11478d0953298472c0e.PNG",
@@ -23,12 +23,12 @@
     "static/media/scroll.gif": "/studying-react-and-tailwind/static/media/scroll.a51334a4f859a7f70758.gif",
     "static/media/javascript.png": "/studying-react-and-tailwind/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/studying-react-and-tailwind/index.html",
-    "main.42d12008.css.map": "/studying-react-and-tailwind/static/css/main.42d12008.css.map",
-    "main.3d2ab99e.js.map": "/studying-react-and-tailwind/static/js/main.3d2ab99e.js.map",
+    "main.f34de1b3.css.map": "/studying-react-and-tailwind/static/css/main.f34de1b3.css.map",
+    "main.761b7859.js.map": "/studying-react-and-tailwind/static/js/main.761b7859.js.map",
     "937.a1f59f92.chunk.js.map": "/studying-react-and-tailwind/static/js/937.a1f59f92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d12008.css",
-    "static/js/main.3d2ab99e.js"
+    "static/css/main.f34de1b3.css",
+    "static/js/main.761b7859.js"
   ]
 }
